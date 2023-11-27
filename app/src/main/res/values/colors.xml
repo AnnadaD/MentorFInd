@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bkg">#E9D6FF</color>
+    <color name="purple">#AD72E8</color>
+    <color name="lightblue">#CEEEFC</color>
+    <color name="chipColor">#6903DD</color>
+    <color name="colorAccent">#380177</color>
+</resources>

@@ -1,0 +1,78 @@
+<!-- res/layout/fragment_chat.xml -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <!-- Heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resources"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="270dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- WebView -->
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Image 1 -->
+        <ImageView
+            android:id="@+id/imageViewAndroid"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Android"
+            android:onClick="openLink"
+            android:src="@drawable/android" />
+
+        <!-- Image 2 -->
+        <ImageView
+            android:id="@+id/imageViewDSA"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/dsa"
+            android:onClick="openLink"
+            android:contentDescription="DSA"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Image 3 -->
+        <ImageView
+            android:id="@+id/imageViewML"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ml"
+            android:onClick="openLink"
+            android:contentDescription="Machine Learning"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Image 4 -->
+        <ImageView
+            android:id="@+id/imageViewCodeClub"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="Code Club"
+            android:onClick="openLink"
+            android:src="@drawable/codeclub" />
+
+    </LinearLayout>
+</ScrollView>
